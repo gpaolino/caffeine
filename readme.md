@@ -1,16 +1,12 @@
-# INSTALL PYTHON(3.12) ON WINDOWS:
+# caffeine-project setup!
 
-C:\Users\admin>py -0p
- -V:3.12 *        C:\Users\~\AppData\Local\Programs\Python\Python312\python.exe
- 
-It's ok to install it only for your user, but remember to add Python to the PATH variable.
+Prerequisites: Windows 10 (or higher) with Python properly v3.12 installed.
 
+Once you have done that, you can clone this repository in your local environment:
+	git clone https://github.com/gpaolino/caffeine.git
 
-# CREATE OR CLONE THE PROJECT FOLDER: caffeine
-
-# CREATE THE VENV
-
-# INSTALL DEPENNDENCIES OR REQUIREMENTS
-	(pip 24.0)
-	pystray
-	pyautogui
+In order to run this project, you need to create a virtual environment and populate it with the dependencies listed in requirements.txt
+Run these commands to get started quickly:
+	python3.12 -m venv .venv  
+	source .venv/bin/activate  
+	python3.12 -m pip install -r requirements.txt
