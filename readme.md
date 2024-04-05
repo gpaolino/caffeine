@@ -51,3 +51,5 @@ Navigate to the src directory and install your local package: <br/>
 Run the program: <br/>
 &emsp; $> python caffeine <br/>
 
+or Run in background (Windows): <br/>
+&emsp; $> pythonw caffeine <br/>
