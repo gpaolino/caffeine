@@ -24,7 +24,9 @@ Optionally upgrade pip package manager: $> python.exe -m pip install --upgrade p
 &emsp; $> python -m pip install -r requirements.txt <br/>
 
 ### Linux OS
-Prerequisites: Ubuntu 22.04.4 LTS (or higher) with Python v3.10.12 properly installed.
+Prerequisites: Ubuntu 22.04.4 LTS (or higher) with Python v3.10.12 properly installed. <br/>
+You can check the Python version installed running this command: <br/>
+&emsp; $> python3 --version <br/>
 
 Once you have done that, you can clone this repository in your local environment: <br/>
 &emsp; $> git clone https://github.com/gpaolino/caffeine.git
@@ -38,18 +40,12 @@ Run these commands to get started quickly: <br/>
 &emsp; $> python3 -m pip install -r requirements.txt <br/>
 &emsp; $> sudo apt-get install python3-tk python3-dev <br/>
 
-Make some small changes to the Python script: <br/>
-&emsp; Change the shebang line in the Python script as following: #!.venv/bin/python <br/>
-&emsp; Rename the Python script as *.py <br/>
-&emsp; Make it executable using the command: $> chmod +x caffeine.py <br/>
-
 ### Install Caffeine as a Local Package
 Navigate to the src directory and install your local package: <br/>
-&emsp; $> cd .\src\ <br/>
+&emsp; $> cd src/ <br/>
 &emsp; $> python -m pip install . <br/>
 
 Run the program: <br/>
 &emsp; $> python caffeine <br/>
-
 or Run in background (Windows): <br/>
 &emsp; $> pythonw caffeine <br/>
