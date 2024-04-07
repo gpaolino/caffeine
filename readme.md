@@ -42,10 +42,10 @@ Run these commands to get started quickly: <br/>
 
 ### Install Caffeine as a Local Package
 Navigate to the src directory and install your local package: <br/>
-&emsp; $> cd src/ <br/>
-&emsp; $> python -m pip install . <br/>
+&emsp; (.venv)$> cd src/ <br/>
+&emsp; (.venv)$> python -m pip install . <br/>
 
 Run the program: <br/>
-&emsp; $> python caffeine <br/>
+&emsp; (.venv)$> python caffeine <br/>
 or Run in background (Windows): <br/>
-&emsp; $> pythonw caffeine <br/>
+&emsp; (.venv)$> pythonw caffeine <br/>
