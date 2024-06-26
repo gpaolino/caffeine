@@ -50,8 +50,7 @@ Run the program: <br/>
 or Run in background (Windows): <br/>
 &emsp; (.venv)$> pythonw caffeine <br/>
 
-## Create an Executable Binary
-
+### Create an Executable Binary
 ### Linux OS
 Run the build script: <br/>
 &emsp; $> ./build.sh
