@@ -3,7 +3,8 @@ __pycache__
 *$py.class
 
 # Distribution / packaging 
-.Python build/ 
+.Python 
+build/ 
 develop-eggs/ 
 dist/ 
 downloads/ 
