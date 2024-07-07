@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
       name='caffeine',
@@ -7,7 +7,7 @@ setup(
       author='Paolo Guglielmino',
       author_email='gp.guglielminopaolo@gmail.com',
       url='https://github.com/gpaolino/caffeine',
-      packages=["caffeine"],
+      packages=find_packages(),
       entry_points={
           "console_scripts": ["caffeine=caffeine:main"],
       },
