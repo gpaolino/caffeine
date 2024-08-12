@@ -67,4 +67,4 @@ or Run in background (Windows): <br/>
 ### Build Executable file using PyInstaller for Windows 11
 
     (.venv)$> pip install pyinstaller
-    (.venv)$> pyinstaller .\src\caffeine\__main__.py --noconsole --onefile --name "Caffeine" --additional-hooks-dir .\src\pyinstaller-hooks\
+    (.venv)$> pyinstaller .\src\caffeine\__main__.py --noconsole --onefile --name "Caffeine"

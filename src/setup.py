@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
       name='caffeine',
-      version='1.0',
+      version='0.0.1',
       description='Caffeine App',
       author='Paolo Guglielmino',
       author_email='gp.guglielminopaolo@gmail.com',

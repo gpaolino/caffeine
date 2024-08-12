@@ -1,4 +1,4 @@
-from caffeine import icon
+from caffeine.modules.caffeine_core import icon
 
 def main():
     icon.run()
